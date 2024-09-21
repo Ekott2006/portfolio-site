@@ -1,3 +1,5 @@
+import MyResume from "./../assets/My Resume.pdf";
+
 const LandingIntroSection = () => {
   return (
     <section className="landing-intro" id="about">
@@ -14,7 +16,7 @@ const LandingIntroSection = () => {
         landscape.
       </small>
       <div>
-        <a href="#" className="cv-link">
+        <a href={MyResume} className="cv-link" download={true}>
           Download CV
         </a>
         <a href="#connect" className="connect-link">
